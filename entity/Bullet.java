@@ -36,6 +36,8 @@ public class Bullet extends EntityObj {
         width = scale * 16;
         height = scale * 16;
         hitbox = new Rectangle(x + 2, y, width - 4, height);
+        speed = 1;
+
     }
 
     public void getBulletimg() {
@@ -65,7 +67,7 @@ public class Bullet extends EntityObj {
     }
 
     public void update() {
-        y -= 1;
+        y -= speed;
         hitbox.y = y;
     }
 

@@ -12,5 +12,6 @@ public class EntityObj {
     public BufferedImage up, down, left, right, idle;
     public String Direction, name;
     public Rectangle hitbox;
+    public int speed = 1;
 
 }
