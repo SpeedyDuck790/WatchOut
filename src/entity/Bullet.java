@@ -1,12 +1,9 @@
 package entity;
 
-import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.io.File;
 import java.io.IOException;
-import java.util.Random;
-
 import javax.imageio.ImageIO;
 
 import Game.Display;
@@ -42,7 +39,7 @@ public class Bullet extends EntityObj {
 
     public void getBulletimg() {
         try {
-            up = ImageIO.read(new File("bullet.png"));
+            up = ImageIO.read(new File("res\\sprites\\bullet.png"));
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

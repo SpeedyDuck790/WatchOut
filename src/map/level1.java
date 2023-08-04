@@ -16,9 +16,9 @@ public class level1 {
 
     public void getlvlImg() {
         try {
-            bridge = ImageIO.read(new File("BridgeFloor.png"));
-            wall = ImageIO.read(new File("wall.png"));
-            water = ImageIO.read(new File("water.png"));
+            bridge = ImageIO.read(new File("res\\sprites\\BridgeFloor.png"));
+            wall = ImageIO.read(new File("res\\sprites\\wall.png"));
+            water = ImageIO.read(new File("res\\sprites\\water.png"));
 
         } catch (IOException e) {
             System.out.println("Error in loading image");

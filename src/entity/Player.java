@@ -9,7 +9,6 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 import Game.*;
-import map.tile;
 
 public class Player extends EntityObj {
     Display ds;
@@ -103,11 +102,11 @@ public class Player extends EntityObj {
 
     public void getplayerimg() {
         try {
-            up = ImageIO.read(new File("mickup.png"));
-            down = ImageIO.read(new File("mickidle.png"));
-            left = ImageIO.read(new File("mickleft.png"));
-            right = ImageIO.read(new File("mickright.png"));
-            idle = ImageIO.read(new File("mickidle.png"));
+            up = ImageIO.read(new File("res\\sprites\\mickup.png"));
+            down = ImageIO.read(new File("res\\sprites\\mickidle.png"));
+            left = ImageIO.read(new File("res\\sprites\\mickleft.png"));
+            right = ImageIO.read(new File("res\\sprites\\mickright.png"));
+            idle = ImageIO.read(new File("res\\sprites\\mickidle.png"));
 
         } catch (IOException e) {
             System.out.println("Error in loading image");
