@@ -7,7 +7,7 @@ public class GameGo {
     public static void main(String[] args) {
         Display play = new Display();
         JFrame windowFrame = new JFrame();
-        ImageIcon img = new ImageIcon("mickidle.png");
+        ImageIcon img = new ImageIcon("res\\sprites\\mickidle.png");
 
         windowFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windowFrame.setResizable(false);
